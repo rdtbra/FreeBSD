@@ -178,6 +178,7 @@
  * of the boot code. Do not change it.
  * In version 1.0 the parameter table (_NEXTDRV etc) is at 0x1b9
  */
+/* RDT: 20230626 - Ponto de partida do boot. */
 start:		cld				# String ops inc
 		xorw %ax,%ax			# Zero
 		movw %ax,%es			# Address
